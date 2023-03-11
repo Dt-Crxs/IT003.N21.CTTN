@@ -64,7 +64,7 @@ int main()
     vector<double> arr(array_size);
     for (int k=0;k<10;k++)
     {
-        for (int i = 0; i < array_s ize; ++i)
+        for (int i = 0; i < array_size; ++i)
             cin>>arr[i];
         MergeSort(arr, 0, array_size - 1);
         for (int i = 0; i < array_size; ++i)
